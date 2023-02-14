@@ -18,7 +18,7 @@ include "controlador/controladorLogin.php"
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12  text-start ">
                 <main class="form-signin m-auto">
-                    <h1 class="text-center">Ingreso de usuarios</h1>
+                    <h1 class="text-center">Ingreso de usuarios registrados</h1>
                     <form action=" " method="post">
                         <div class="form-floating mt-2">
                             <input type="number" name="Txtcedula" class="form-control" id="floatingInput" placeholder="123456789" value="<?= $_POST["Txtcedula"] ?? '' ?>" required>
